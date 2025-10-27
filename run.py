@@ -42,7 +42,7 @@ if '//' in ip or 'https' in ip:
      ip = getip(ip)
 port = input("Port          : ")
 os.system('cls' if os.name == 'nt' else 'clear')
-print(pyfiglet.figlet_format("Attack Starting"))
+print("Attack Starting....")
 print("[                    ] 0% ")
 time.sleep(5)
 print("[=====               ] 25%")
